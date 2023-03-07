@@ -3,13 +3,13 @@
 <head>
   <meta name="generator" content="Hugo 0.111.2" />
   <meta charset="utf-8">
-  <title>金科1 · Den</title>
+  <title>lua 轉 typescript 錯誤 · Den</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="" />
+  <meta name="description" content="金科工作業務2 lua 轉 typescript 錯誤 整理 1. 數組從1開始 正则表达式 \[([1|2|3|4|5|6|7|8])\] [$1-1] 2. for 循環 //还是是否从1开始 for 3. 三元運算符 value = condition and a or b //當a 等於 0 或者 是 false 的時候" />
 
   <meta name="keywords" content="Hugo, theme, den" />
 
-<link rel="canonical" href="https://sharperM.GitHub.io/zh-cn/2023/03/06/%E9%87%91%E7%A7%911/" />
+<link rel="canonical" href="https://sharperM.GitHub.io/zh-cn/2023/03/06/lua-%E8%BD%89-typescript-%E9%8C%AF%E8%AA%A4/" />
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -87,7 +87,7 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="header-content">
-        <h1 class="header-title">金科1</h1>
+        <h1 class="header-title">lua 轉 typescript 錯誤</h1>
         <p class="header-date">作者：
           sharperM /
         
@@ -115,7 +115,45 @@
   <main>
 <div class="container content">
   <article>
-  
+  <pre><code>金科工作業務2
+</code></pre>
+<h1 id="lua-轉-typescript-錯誤-整理">lua 轉 typescript 錯誤 整理</h1>
+<hr>
+<h2 id="1-數組從1開始">1. 數組從1開始</h2>
+<pre><code>正则表达式
+
+\[([1|2|3|4|5|6|7|8])\]
+
+[$1-1]
+</code></pre>
+<h2 id="2-for-循環">2. for 循環</h2>
+<pre><code>//还是是否从1开始
+for 
+</code></pre>
+<h2 id="3-三元運算符">3. 三元運算符</h2>
+<pre><code>value = condition and a or b
+//當a 等於 0 或者 是 false 的時候 value 不会赋值成 0 或 false
+//要改成 
+value = condition ? a : b
+
+//类似的
+value = a or b
+//改成
+value = a != undefined ? a : b
+</code></pre>
+<p>正则查找替换</p>
+<pre><code>(.*?)&amp;&amp;(.*?)\|\|(.*)
+
+$1?$2:$3
+
+(.*?)\|\|(.*)
+</code></pre>
+<h2 id="4-mathrandomx">4. math.random(x)</h2>
+<pre><code>x是整數，返回的 是 [1,x]的整數
+</code></pre>
+<h2 id="5-stringformat">5. string.format</h2>
+<pre><code>是類似c的實現，而typescript不是</code></pre>
+
   </article>
 
   
