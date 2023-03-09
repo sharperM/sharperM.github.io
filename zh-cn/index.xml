@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Den</title>
+    <title>sharperM</title>
     <link>https://sharperM.GitHub.io/zh-cn/</link>
-    <description>Recent content on Den</description>
+    <description>Recent content on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Mar 2023 20:11:04 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Mar 2023 23:02:32 +0800</lastBuildDate>
     
     <atom:link href="https://sharperM.GitHub.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,58 @@
 <li><a href="https://github.com/spf13/cast">Cast</a></li>
 </ul>
 <p>了解並貢獻： <a href="https://github.com/gohugoio">GitHub</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;11 的线程  join()函数</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 07 Mar 2023 23:02:32 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</guid>
+      <description>// thread example1.cpp #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;thread&amp;gt; // std::thread void foo() { std::cout &amp;lt;&amp;lt; &amp;#34;foo is called&amp;#34; &amp;lt;&amp;lt; std::endl; } void bar(int x) { std::cout &amp;lt;&amp;lt; &amp;#34;bar is called&amp;#34; &amp;lt;&amp;lt; std::endl; } int main() { std::thread first (foo); // spawn new thread that calls foo() std::thread second (bar,0); // spawn new thread that calls bar(0) std::cout &amp;lt;&amp;lt; &amp;#34;main, foo and bar now execute concurrently...\n&amp;#34;; // synchronize threads: first.join();</description>
+      <content:encoded><![CDATA[<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// thread example1.cpp
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#include</span>  <span style="color:#75715e">&lt;iostream&gt;        // std::cout</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span>  <span style="color:#75715e">&lt;thread&gt;        // std::thread</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">foo</span>()  {
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;foo is called&#34;</span> <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">bar</span>(<span style="color:#66d9ef">int</span> x) {
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;bar is called&#34;</span> <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span><span style="color:#66d9ef">thread</span> first (foo);    <span style="color:#75715e">// spawn new thread that calls foo()
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std<span style="color:#f92672">::</span><span style="color:#66d9ef">thread</span> second (bar,<span style="color:#ae81ff">0</span>);  <span style="color:#75715e">// spawn new thread that calls bar(0)                                                 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;main, foo and bar now execute concurrently...</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// synchronize threads:
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    first.join();                <span style="color:#75715e">// pauses until first finishes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    second.join();              <span style="color:#75715e">// pauses until second finishes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;foo and bar completed.</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>使用下面的命令编译</p>
+<pre><code>g++ -std=c++11 example1.cpp -lpthread -o example1                                
+</code></pre>
+<p>运行输出</p>
+<pre><code>foo is called
+bar is called
+main, foo and bar now execute concurrently...
+foo and bar completed.
+</code></pre>
+<p>或者</p>
+<pre><code>main, foo and bar now execute concurrently...
+bar is called
+foo is called
+foo and bar completed.
+</code></pre>
+<p>只有 join之后的代码顺序是确保的</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content:encoded>
     </item>
     

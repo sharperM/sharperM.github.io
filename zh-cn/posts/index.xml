@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Den</title>
+    <title>Posts on sharperM</title>
     <link>https://sharperM.GitHub.io/zh-cn/posts/</link>
-    <description>Recent content in Posts on Den</description>
+    <description>Recent content in Posts on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Mar 2023 20:11:04 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 23:02:32 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;11 的线程  join()函数</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 07 Mar 2023 23:02:32 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</guid>
+      <description>// thread example1.cpp #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;thread&amp;gt; // std::thread void foo() { std::cout &amp;lt;&amp;lt; &amp;#34;foo is called&amp;#34; &amp;lt;&amp;lt; std::endl; } void bar(int x) { std::cout &amp;lt;&amp;lt; &amp;#34;bar is called&amp;#34; &amp;lt;&amp;lt; std::endl; } int main() { std::thread first (foo); // spawn new thread that calls foo() std::thread second (bar,0); // spawn new thread that calls bar(0) std::cout &amp;lt;&amp;lt; &amp;#34;main, foo and bar now execute concurrently...\n&amp;#34;; // synchronize threads: first.join();</description>
+    </item>
+    
     <item>
       <title>力港1</title>
       <link>https://sharperM.GitHub.io/zh-cn/2023/03/06/%E5%8A%9B%E6%B8%AF1/</link>
