@@ -61,5 +61,14 @@
       <description>這是一個簡單的筆記。</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>活动开始预告 status 1 活动开始 status 2 boss被击杀 or 倒计时结束 活动结束 if boss 被击杀 { 倒计时60秒 status 4 } { 倒计时结束 可以选择进入巨龙争夺战房间，倒计时2</description>
+    </item>
+    
   </channel>
 </rss>

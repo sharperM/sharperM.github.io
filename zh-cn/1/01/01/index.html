@@ -3,13 +3,13 @@
 <head>
   <meta name="generator" content="Hugo 0.111.3" />
   <meta charset="utf-8">
-  <title>lua 轉 typescript 錯誤 · sharperM</title>
+  <title> · sharperM</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="金科工作業務2 lua 轉 typescript 錯誤 整理 1. 數組從1開始 正则表达式 \[([1|2|3|4|5|6|7|8])\] [$1-1] 2. for 循環 //还是是否从1开始 for 3. 三元運算符 value = condition and a or b //當a 等於 0 或者 是 false 的時候" />
+  <meta name="description" content="活动开始预告 status 1 活动开始 status 2 boss被击杀 or 倒计时结束 活动结束 if boss 被击杀 { 倒计时60秒 status 4 } { 倒计时结束 可以选择进入巨龙争夺战房间，倒计时2" />
 
   <meta name="keywords" content="Hugo, theme, den" />
 
-<link rel="canonical" href="https://sharperM.GitHub.io/zh-cn/2023/03/06/lua-%E8%BD%89-typescript-%E9%8C%AF%E8%AA%A4/" />
+<link rel="canonical" href="https://sharperM.GitHub.io/zh-cn/1/01/01/" />
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -87,22 +87,10 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="header-content">
-        <h1 class="header-title">lua 轉 typescript 錯誤</h1>
-        <p class="header-date">作者：
-          sharperM /
-        
-        2023-03-06
-          / 分类：
-          <a href="https://sharperM.GitHub.io/zh-cn/category/notes/">Notes</a>
-        </p>
-        
+        <h1 class="header-title"></h1>
+        <p class="header-date">
+        0001-01-01
         <div class="header-underline"></div>
-        
-          <div class="clearfix"></div>
-          <p class="float-right header-tags">
-              <i class="fas fa-tags" aria-hidden="true"></i>
-              <a href="https://sharperM.GitHub.io/zh-cn/tag/notes/">notes</a>
-          </p>
         
         
 
@@ -115,55 +103,40 @@
   <main>
 <div class="container content">
   <article>
-  <pre><code>金科工作業務2
-</code></pre>
-<h1 id="lua-轉-typescript-錯誤-整理">lua 轉 typescript 錯誤 整理</h1>
-<hr>
-<h2 id="1-數組從1開始">1. 數組從1開始</h2>
-<pre><code>正则表达式
-
-\[([1|2|3|4|5|6|7|8])\]
-
-[$1-1]
-</code></pre>
-<h2 id="2-for-循環">2. for 循環</h2>
-<pre><code>//还是是否从1开始
-for 
-</code></pre>
-<h2 id="3-三元運算符">3. 三元運算符</h2>
-<pre><code>value = condition and a or b
-//當a 等於 0 或者 是 false 的時候 value 不会赋值成 0 或 false
-//要改成 
-value = condition ? a : b
-
-//类似的
-value = a or b
-//改成
-value = a != undefined ? a : b
-</code></pre>
-<p>正则查找替换</p>
-<pre><code>(.*?)&amp;&amp;(.*?)\|\|(.*)
-
-$1?$2:$3
-
-(.*?)\|\|(.*)
-</code></pre>
-<h2 id="4-mathrandomx">4. math.random(x)</h2>
-<pre><code>x是整數，返回的 是 [1,x]的整數
-</code></pre>
-<h2 id="5-stringformat">5. string.format</h2>
-<pre><code>是類似c的實現，而typescript不是
-</code></pre>
-<h2 id="6-cc_2dxlabel字体换行">6. cc_2dx.Label字体换行</h2>
-<pre><code>t_label.label.overflow = Label.Overflow.RESIZE_HEIGHT
-t_label.label.updateRenderData(true)</code></pre>
+  <p>活动开始预告
+status 1
+活动开始
+status 2
+boss被击杀
+or
+倒计时结束</p>
+<p>活动结束</p>
+<p>if boss 被击杀
+{
+倒计时60秒
+status 4
+}
+{
+倒计时结束
+可以选择进入巨龙争夺战房间，倒计时2分钟
+status 5
+}
+{
+2分钟倒计时结束
+status 6
+}
+if 不进入，
+status = 3
+<!-- raw HTML omitted -->
+显示boss动画 和 血条
+else
+显示玩家</p>
+<p>[16648] [ddlog] 448099803 ProtocolWorldBoss:getWorldBossMesOk {&ldquo;protocolMainType&rdquo;:37,&ldquo;championMes&rdquo;:&quot;{&quot;PP&quot;:{&quot;PST&quot;:1,&quot;PSTE&quot;:0,&quot;PA&quot;:1000,&quot;PS&quot;:[82002,80301],&quot;PH&quot;:1600,&quot;ID&quot;:20090,&quot;PL&quot;:29,&quot;PAP&quot;:602},&quot;PPB&quot;:[{&quot;PST&quot;:1,&quot;PSTE&quot;:0,&quot;PS&quot;:[82002],&quot;ID&quot;:20090,&quot;PL&quot;:29,&quot;PAP&quot;:602},{&quot;PST&quot;:0,&quot;PSTE&quot;:0,&quot;PS&quot;:[80301],&quot;ID&quot;:20020,&quot;PL&quot;:1,&quot;PAP&quot;:50}],&quot;UFS&quot;:{},&quot;PTI&quot;:[10007],&quot;PPF&quot;:11485,&quot;L&quot;:60,&quot;N&quot;:&quot;粗眉的奥斯德&quot;,&quot;PPBL&quot;:1,&quot;SD&quot;:&quot;1&quot;,&quot;PPP&quot;:{&quot;1&quot;:3675,&quot;3&quot;:1144,&quot;4&quot;:539,&quot;5&quot;:0,&quot;7&quot;:0,&quot;9&quot;:0,&quot;10&quot;:0,&quot;11&quot;:0,&quot;12&quot;:0,&quot;13&quot;:0,&quot;16&quot;:0,&quot;18&quot;:0,&quot;19&quot;:0,&quot;20&quot;:0,&quot;21&quot;:0,&quot;22&quot;:0,&quot;23&quot;:0,&quot;24&quot;:0,&quot;25&quot;:0,&quot;26&quot;:0,&quot;27&quot;:0,&quot;28&quot;:0,&quot;29&quot;:0,&quot;30&quot;:0,&quot;31&quot;:0,&quot;32&quot;:0,&quot;33&quot;:0,&quot;39&quot;:0,&quot;40&quot;:0,&quot;101&quot;:0,&quot;103&quot;:0,&quot;104&quot;:0,&quot;105&quot;:0,&quot;107&quot;:0,&quot;109&quot;:0,&quot;110&quot;:0,&quot;111&quot;:0,&quot;112&quot;:0,&quot;113&quot;:0,&quot;116&quot;:0,&quot;118&quot;:0,&quot;119&quot;:0,&quot;120&quot;:0,&quot;121&quot;:0,&quot;122&quot;:0,&quot;123&quot;:0,&quot;124&quot;:0,&quot;125&quot;:0,&quot;126&quot;:0,&quot;127&quot;:0},&quot;UF&quot;:0,&quot;S&quot;:1,&quot;T&quot;:&quot;{\&quot;id\&quot;:\&quot;0\&quot;}&quot;,&quot;PE&quot;:[{&quot;IAI&quot;:[219,238,228],&quot;PIID&quot;:1427,&quot;IID&quot;:704064,&quot;IAJI&quot;:[317],&quot;KEP&quot;:{&quot;1&quot;:17916},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:4,&quot;IAJN&quot;:1,&quot;SID&quot;:[]},{&quot;IAI&quot;:[238,239,236],&quot;PIID&quot;:1287,&quot;IID&quot;:204064,&quot;IAJI&quot;:[292],&quot;KEP&quot;:{&quot;20&quot;:0,&quot;7&quot;:2240},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:4,&quot;IAJN&quot;:1,&quot;SID&quot;:[]},{&quot;IAI&quot;:[234,211,224],&quot;PIID&quot;:1343,&quot;IID&quot;:404064,&quot;IAJI&quot;:[],&quot;KEP&quot;:{&quot;5&quot;:2352},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:5,&quot;IAJN&quot;:0,&quot;SID&quot;:[]},{&quot;IAI&quot;:[211,221,231],&quot;PIID&quot;:1371,&quot;IID&quot;:504064,&quot;IAJI&quot;:[295],&quot;KEP&quot;:{&quot;19&quot;:0,&quot;3&quot;:4704},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:5,&quot;IAJN&quot;:1,&quot;SID&quot;:[]},{&quot;IAI&quot;:[235,216,220],&quot;PIID&quot;:1399,&quot;IID&quot;:604064,&quot;IAJI&quot;:[294],&quot;KEP&quot;:{&quot;4&quot;:2986},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:4,&quot;IAJN&quot;:1,&quot;SID&quot;:[]},{&quot;IAI&quot;:[],&quot;PIID&quot;:1900,&quot;IID&quot;:999,&quot;IAJI&quot;:[],&quot;KEP&quot;:{&quot;1&quot;:9623160,&quot;3&quot;:2405790,&quot;4&quot;:1603860,&quot;5&quot;:122895,&quot;7&quot;:122895,&quot;9&quot;:20000,&quot;10&quot;:20000,&quot;11&quot;:20000,&quot;12&quot;:12000,&quot;13&quot;:12000,&quot;18&quot;:10000,&quot;121&quot;:8000,&quot;122&quot;:8000,&quot;124&quot;:8000,&quot;125&quot;:8000,&quot;126&quot;:4000,&quot;127&quot;:4000},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:12,&quot;IAJN&quot;:0,&quot;SID&quot;:[]},{&quot;IAI&quot;:[235,220,226],&quot;PIID&quot;:1455,&quot;IID&quot;:804064,&quot;IAJI&quot;:[292],&quot;KEP&quot;:{&quot;1&quot;:17916},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:4,&quot;IAJN&quot;:1,&quot;SID&quot;:[]},{&quot;IAI&quot;:[216,239,236],&quot;PIID&quot;:1315,&quot;IID&quot;:304064,&quot;IAJI&quot;:[317],&quot;KEP&quot;:{&quot;1&quot;:17916,&quot;7&quot;:0},&quot;SGL&quot;:60,&quot;RL&quot;:0,&quot;SRL&quot;:4,&quot;IAJN&quot;:1,&quot;SID&quot;:[]}],&quot;PF&quot;:[11501,12501,13501,10501],&quot;PMS&quot;:{},&quot;PMU&quot;:0,&quot;ID&quot;:152,&quot;RAL&quot;:0}&quot;,&ldquo;rank&rdquo;:0,&ldquo;protocolSubType&rdquo;:2,&ldquo;index&rdquo;:[1],&ldquo;playerMes&rdquo;:[&quot;{&quot;S&quot;:1,&quot;WBD&quot;:5000000,&quot;ID&quot;:152,&quot;L&quot;:60,&quot;HU&quot;:&quot;&quot;,&quot;N&quot;:&quot;粗眉的奥斯德&quot;}&quot;],&ldquo;damage&rdquo;:0,&ldquo;status&rdquo;:3,&ldquo;bossId&rdquo;:80101}</p>
 
   </article>
 
   
   
-    
-    
     
   
   
