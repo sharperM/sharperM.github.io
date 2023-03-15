@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>C&#43;&#43;11 的线程  join()函数</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 07 Mar 2023 23:02:32 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</guid>
+      <description>// constructing threads #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;atomic&amp;gt; // std::atomic #include &amp;lt;thread&amp;gt; // std::thread #include &amp;lt;vector&amp;gt; // std::vector std::atomic&amp;lt;int&amp;gt; global_counter (0); void increase_global (int n) { for (int i=0; i&amp;lt;n; ++i) ++global_counter; } void increase_reference (std::atomic&amp;lt;int&amp;gt;&amp;amp; variable, int n) { for (int i=0; i&amp;lt;n; ++i) ++variable; } struct C : std::atomic&amp;lt;int&amp;gt; { C() : std::atomic&amp;lt;int&amp;gt;(0) {} void increase_member (int n) { for (int i=0; i&amp;lt;n; ++i) fetch_add(1); } };</description>
+    </item>
+    
+    <item>
       <title>力港1</title>
       <link>https://sharperM.GitHub.io/zh-cn/2023/03/06/%E5%8A%9B%E6%B8%AF1/</link>
       <pubDate>Mon, 06 Mar 2023 20:11:04 +0800</pubDate>
@@ -59,6 +68,15 @@
       
       <guid>https://sharperM.GitHub.io/zh-cn/2018/03/03/%E7%AD%86%E8%A8%98-1/</guid>
       <description>這是一個簡單的筆記。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>// example for thread::operator= #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;thread&amp;gt; // std::thread, std::this_thread::sleep_for #include &amp;lt;chrono&amp;gt; // std::chrono::seconds void pause_thread(int n) { std::this_thread::sleep_for (std::chrono::seconds(n)); std::cout &amp;lt;&amp;lt; &amp;#34;pause of &amp;#34; &amp;lt;&amp;lt; n &amp;lt;&amp;lt; &amp;#34; seconds ended\n&amp;#34;; } int main() { std::thread threads[5]; // default-constructed threads std::cout &amp;lt;&amp;lt; &amp;#34;Spawning 5 threads...\n&amp;#34;; for (int i=0; i&amp;lt;5; ++i) threads[i] = std::thread(pause_thread,i+1); // move-assign threads std::cout &amp;lt;&amp;lt; &amp;#34;Done spawning threads. Now waiting for them to join:\n&amp;#34;;</description>
     </item>
     
     <item>
