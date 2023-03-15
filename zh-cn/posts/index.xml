@@ -70,5 +70,14 @@
       <description>活动开始预告 status 1 活动开始 status 2 boss被击杀 or 倒计时结束 活动结束 if boss 被击杀 { 倒计时60秒 status 4 } { 倒计时结束 可以选择进入巨龙争夺战房间，倒计时2</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>部件 型号 价格 2023年3月15日 cpu i5 13400f 1230 主板 精粤b760 424 显卡 5700xt（矿） 765 硬盘 三星pm981A 1t 389 内存 金百达 16G*2 480 机箱 200 电源 500W 0 散热 0</description>
+    </item>
+    
   </channel>
 </rss>
