@@ -3,15 +3,13 @@
 <head>
   <meta name="generator" content="Hugo 0.111.3" />
   <meta charset="utf-8">
-  <title>筆記 1 · sharperM</title>
+  <title>金科工作回顾 · sharperM</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="這是一個簡單的筆記。" />
+  <meta name="description" content="金科工作回顾 开始的11月8日 一’修改lua 直译 ts 的脚本错误。 其实就是将lua的定义的静态函数 改成class，改成单例，改成creator的组" />
 
   <meta name="keywords" content="Hugo, theme, den" />
 
-<link rel="canonical" href="https://sharperM.GitHub.io/zh-cn/2018/03/03/%E7%AD%86%E8%A8%98-1/" />
-<link rel="alternate" href="https://sharperM.GitHub.io/en/2018/03/03/note-1/" hreflang="en">
-<link rel="alternate" href="https://sharperM.GitHub.io/zh-tw/2018/03/03/%E7%AD%86%E8%A8%98-1/" hreflang="zh-tw">
+<link rel="canonical" href="https://sharperM.GitHub.io/zh-cn/2023/03/23/%E9%87%91%E7%A7%91%E5%B7%A5%E4%BD%9C%E5%9B%9E%E9%A1%BE/" />
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -89,11 +87,11 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="header-content">
-        <h1 class="header-title">筆記 1</h1>
+        <h1 class="header-title">金科工作回顾</h1>
         <p class="header-date">作者：
-          Bob /
+          sharperM /
         
-        2018-03-03
+        2023-03-23
           / 分类：
           <a href="https://sharperM.GitHub.io/zh-cn/category/notes/">Notes</a>
         </p>
@@ -106,13 +104,7 @@
               <a href="https://sharperM.GitHub.io/zh-cn/tag/notes/">notes</a>
           </p>
         
-        <div class="clearfix"></div>
-<p class="float-right translations">
-    <i class="fas fa-language" aria-hidden="true"></i>
-    翻译： 
-    <a href="https://sharperM.GitHub.io/en/2018/03/03/note-1/">EN</a>, <a href="https://sharperM.GitHub.io/zh-tw/2018/03/03/%E7%AD%86%E8%A8%98-1/">ZH-TW</a>
-</p>
-
+        
 
       </div>
     </div>
@@ -123,24 +115,48 @@
   <main>
 <div class="container content">
   <article>
-  <p>這是一個簡單的筆記。</p>
+  <p>金科工作回顾</p>
+<p>开始的11月8日</p>
+<h2 id="一修改lua-直译-ts-的脚本错误">一’修改lua 直译 ts 的脚本错误。</h2>
+<p>其实就是将lua的定义的静态函数</p>
+<p>改成class，改成单例，改成creator的组件</p>
+<p>lua的内置函数改成 ts，js的实现</p>
+<pre><code>例如
+math，random，string, table, ipairs, pair, concat, clone,
+</code></pre>
+<p>lua的table从1开始索引的。</p>
+<pre><code>a = b || c ，
+a = b &amp;&amp; c || d，
+random(n) 返回是 [1,n]的随机数
+</code></pre>
+<p>原本的cocos2dx-lua 3.17 的成员</p>
+<p>不同的回调函数</p>
+<pre><code>onEnter
+onEnterFinsh
+onExit
+</code></pre>
+<p>例如sprite， node， lable， widget， layer，</p>
+<p>写一个适配层 wrap 来 转成，  creator 的 组件。</p>
+<p>这里要解决的是
+2dx 的 绘制顺序，2d游戏的遮挡，和 creator 的绘制顺序不一样。</p>
+<p>还有canva 的坐标，会代替 cocos2dx的屏幕坐标问题。</p>
+<p>函数接口实现</p>
+<p>UI类和ui组件的差异，</p>
+<p>还有一些ui组件自带的缓动效果（例如scrolliew的回弹效果，就不能对intercontainer 做位置相关的缓动，会冲突）。</p>
+<h2 id="资源加载引起的异步问题">资源加载引起的异步问题</h2>
+<p>要处理通过程序代码动态创建的界面需要获得图片的尺寸才能设置位置。这个是应该避免的，应该每一个图片都是固定“显示大小“，图片资源加载之后才根据实际大小缩放到“显示大小“，避免等待图片加载的情况。</p>
+<h2 id="播放动画引起的异步">播放动画引起的异步</h2>
+<p>还有一些，spine动画加载，然后在播放动画之后，执行回调的，回调的应该是管理类，不能是界面。避免动画的播放的过程中，回调涉及的界面已经被销毁。其中也是涉及到如何分离 逻辑和界面的问题，因为最终管理类可能也是要影响界面的。</p>
+<p>建议是通过消息队列，设计一个安全的消息分发类
+（弱引用）</p>
+<p>网络消息引起的异步问题，也是和上面的类似</p>
 
   </article>
 
   
   
     
-    <div class="author-card">
-    <div class="underline"></div>
-    <div class="author-box">
-      <div class="author-image"><a href="https://example.com"><img src="/images/blank-profile.png" alt="Bob" /></a></div>
-      <div class="author-content">
-      <p class="author-title">作者</p>
-      <p class="author-name">Bob</p>
-      <p class="author-desc">bob</p>
-      </div>
-    </div>
-  </div>
+    
     
   
   

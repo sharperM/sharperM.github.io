@@ -6,7 +6,16 @@
     <description>Recent content in Posts on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Mar 2023 23:02:32 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 10:46:58 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>金科工作回顾</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/03/23/%E9%87%91%E7%A7%91%E5%B7%A5%E4%BD%9C%E5%9B%9E%E9%A1%BE/</link>
+      <pubDate>Thu, 23 Mar 2023 10:46:58 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/03/23/%E9%87%91%E7%A7%91%E5%B7%A5%E4%BD%9C%E5%9B%9E%E9%A1%BE/</guid>
+      <description>金科工作回顾 开始的11月8日 一’修改lua 直译 ts 的脚本错误。 其实就是将lua的定义的静态函数 改成class，改成单例，改成creator的组</description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;11 的线程  join()函数</title>
       <link>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</link>
@@ -23,6 +32,15 @@
       
       <guid>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</guid>
       <description>// constructing threads #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;atomic&amp;gt; // std::atomic #include &amp;lt;thread&amp;gt; // std::thread #include &amp;lt;vector&amp;gt; // std::vector std::atomic&amp;lt;int&amp;gt; global_counter (0); void increase_global (int n) { for (int i=0; i&amp;lt;n; ++i) ++global_counter; } void increase_reference (std::atomic&amp;lt;int&amp;gt;&amp;amp; variable, int n) { for (int i=0; i&amp;lt;n; ++i) ++variable; } struct C : std::atomic&amp;lt;int&amp;gt; { C() : std::atomic&amp;lt;int&amp;gt;(0) {} void increase_member (int n) { for (int i=0; i&amp;lt;n; ++i) fetch_add(1); } };</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;11 的线程  join()函数</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 07 Mar 2023 23:02:32 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/03/07/c-11-%E7%9A%84%E7%BA%BF%E7%A8%8B-join%E5%87%BD%E6%95%B0/</guid>
+      <description>// example for thread::operator= #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;thread&amp;gt; // std::thread, std::this_thread::sleep_for #include &amp;lt;chrono&amp;gt; // std::chrono::seconds void pause_thread(int n) { std::this_thread::sleep_for (std::chrono::seconds(n)); std::cout &amp;lt;&amp;lt; &amp;#34;pause of &amp;#34; &amp;lt;&amp;lt; n &amp;lt;&amp;lt; &amp;#34; seconds ended\n&amp;#34;; } int main() { std::thread threads[5]; // default-constructed threads std::cout &amp;lt;&amp;lt; &amp;#34;Spawning 5 threads...\n&amp;#34;; for (int i=0; i&amp;lt;5; ++i) threads[i] = std::thread(pause_thread,i+1); // move-assign threads std::cout &amp;lt;&amp;lt; &amp;#34;Done spawning threads. Now waiting for them to join:\n&amp;#34;;</description>
     </item>
     
     <item>
@@ -59,42 +77,6 @@
       
       <guid>https://sharperM.GitHub.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</guid>
       <description>這是一個簡單的筆記。</description>
-    </item>
-    
-    <item>
-      <title>筆記 1</title>
-      <link>https://sharperM.GitHub.io/zh-cn/2018/03/03/%E7%AD%86%E8%A8%98-1/</link>
-      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/2018/03/03/%E7%AD%86%E8%A8%98-1/</guid>
-      <description>這是一個簡單的筆記。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>// example for thread::operator= #include &amp;lt;iostream&amp;gt; // std::cout #include &amp;lt;thread&amp;gt; // std::thread, std::this_thread::sleep_for #include &amp;lt;chrono&amp;gt; // std::chrono::seconds void pause_thread(int n) { std::this_thread::sleep_for (std::chrono::seconds(n)); std::cout &amp;lt;&amp;lt; &amp;#34;pause of &amp;#34; &amp;lt;&amp;lt; n &amp;lt;&amp;lt; &amp;#34; seconds ended\n&amp;#34;; } int main() { std::thread threads[5]; // default-constructed threads std::cout &amp;lt;&amp;lt; &amp;#34;Spawning 5 threads...\n&amp;#34;; for (int i=0; i&amp;lt;5; ++i) threads[i] = std::thread(pause_thread,i+1); // move-assign threads std::cout &amp;lt;&amp;lt; &amp;#34;Done spawning threads. Now waiting for them to join:\n&amp;#34;;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>活动开始预告 status 1 活动开始 status 2 boss被击杀 or 倒计时结束 活动结束 if boss 被击杀 { 倒计时60秒 status 4 } { 倒计时结束 可以选择进入巨龙争夺战房间，倒计时2</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>部件 型号 价格 2023年3月15日 cpu i5 13400f 1230 主板 精粤b760 424 显卡 5700xt（矿） 765 硬盘 三星pm981A 1t 389 内存 金百达 16G*2 480 机箱 200 电源 500W 0 散热 0</description>
     </item>
     
     <item>
