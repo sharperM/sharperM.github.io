@@ -363,13 +363,24 @@ t_label.label.updateRenderData(true)</code></pre>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git Compose 官方文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn</description>
+      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档reference https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components 官方示例工程 https://github.com/android/compose-samples.git https://github.com/android/nowinandroid.git 官方教学示例 https://github.com/googlecodelabs/android-compose-codelabs material3 https://m2.material.io/components/navigation-rail/android#using-navigation-rail 英文使用例子 https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/</description>
       <content:encoded><![CDATA[<p>用这个来自定义ui</p>
 <p>git remote add origin <a href="https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git">https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</a></p>
 <p>git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git</p>
 <p>git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</p>
-<p>Compose 官方文档</p>
-<p><a href="https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn">https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn</a></p>
+<p>Compose 官方学习文档
+<a href="https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn">https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn</a></p>
+<p>编程文档reference
+<a href="https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components">https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components</a></p>
+<p>官方示例工程
+<a href="https://github.com/android/compose-samples.git">https://github.com/android/compose-samples.git</a>
+<a href="https://github.com/android/nowinandroid.git">https://github.com/android/nowinandroid.git</a></p>
+<p>官方教学示例
+<a href="https://github.com/googlecodelabs/android-compose-codelabs">https://github.com/googlecodelabs/android-compose-codelabs</a></p>
+<p>material3
+<a href="https://m2.material.io/components/navigation-rail/android#using-navigation-rail">https://m2.material.io/components/navigation-rail/android#using-navigation-rail</a></p>
+<p>英文使用例子
+<a href="https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/">https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/</a></p>
 ]]></content:encoded>
     </item>
     
