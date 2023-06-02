@@ -352,6 +352,38 @@ t_label.label.updateRenderData(true)</code></pre>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>1.学习 jetpack compose 的基本使用 compose 的 fundamental 是 composable function，这个 function 会返回一个 UI tree，这个 UI tree 会被 compose runtime 转换成一个 UI tree，然后被渲染到屏幕上。 ROW Column</description>
+      <content:encoded><![CDATA[<p>1.学习 jetpack compose 的基本使用</p>
+<p>compose 的 fundamental 是 composable function，这个 function 会返回一个 UI tree，这个 UI tree 会被 compose runtime 转换成一个 UI tree，然后被渲染到屏幕上。</p>
+<p>ROW
+Column
+Box
+Scaffold</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>cwebp 压缩命令 示例 .\cwebp.exe -q 50 -lossless C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.jpeg -o C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.webp .\cwebp.exe -q 50 C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.jpeg -o C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.webp 科幻电影中的科学 ：科学家奶爸的宇宙手绘 新华字典第12版 《小屁孩成长记做最好的自己》</description>
+      <content:encoded><![CDATA[<p>cwebp 压缩命令 示例</p>
+<p>.\cwebp.exe -q 50 -lossless C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.jpeg -o C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.webp</p>
+<p>.\cwebp.exe -q 50 C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.jpeg -o C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.webp</p>
+<p>科幻电影中的科学 ：科学家奶爸的宇宙手绘</p>
+<p>新华字典第12版</p>
+<p>《小屁孩成长记做最好的自己》</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>使用导航控制 fragment，而不是用 fragmentManger</description>
       <content:encoded><![CDATA[<p>使用导航控制 fragment，而不是用 fragmentManger</p>
 ]]></content:encoded>
@@ -363,24 +395,299 @@ t_label.label.updateRenderData(true)</code></pre>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档reference https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components 官方示例工程 https://github.com/android/compose-samples.git https://github.com/android/nowinandroid.git 官方教学示例 https://github.com/googlecodelabs/android-compose-codelabs material3 https://m2.material.io/components/navigation-rail/android#using-navigation-rail 英文使用例子 https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/</description>
+      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档refere</description>
       <content:encoded><![CDATA[<p>用这个来自定义ui</p>
 <p>git remote add origin <a href="https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git">https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</a></p>
 <p>git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git</p>
-<p>git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</p>
+<p>假页面2
+git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</p>
+<p>git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git</p>
+<p>假页面地址
+git clone <a href="https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git">https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git</a></p>
+<p>我的blog
+<a href="mailto:git@github.com">git@github.com</a>:sharperM/msp_blog.git</p>
+<p>消消乐git地址
+git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git</p>
+<p><a href="mailto:maishaopei@youmieyou.onaliyun.com">maishaopei@youmieyou.onaliyun.com</a></p>
 <p>Compose 官方学习文档
 <a href="https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn">https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn</a></p>
 <p>编程文档reference
 <a href="https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components">https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components</a></p>
-<p>官方示例工程
-<a href="https://github.com/android/compose-samples.git">https://github.com/android/compose-samples.git</a>
+<p>官方示例工程</p>
+<p><a href="https://github.com/android/compose-samples.git">https://github.com/android/compose-samples.git</a></p>
+<p>包含其他的jetpack 功能659
 <a href="https://github.com/android/nowinandroid.git">https://github.com/android/nowinandroid.git</a></p>
 <p>官方教学示例
 <a href="https://github.com/googlecodelabs/android-compose-codelabs">https://github.com/googlecodelabs/android-compose-codelabs</a></p>
 <p>material3
-<a href="https://m2.material.io/components/navigation-rail/android#using-navigation-rail">https://m2.material.io/components/navigation-rail/android#using-navigation-rail</a></p>
+<a href="https://m2.material.io/components/navigation-rail/android#using-navigation-rail">https://m2.material.io/components/navigation-rail/android#using-navigation-rail</a>
+<a href="https://m3.material.io/foundations">https://m3.material.io/foundations</a></p>
 <p>英文使用例子
 <a href="https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/">https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>Usage: youtube-dl.exe [OPTIONS] URL [URL&amp;hellip;]
+Options: General Options: -h, &amp;ndash;help Print this help text and exit &amp;ndash;version Print program version and exit -U, &amp;ndash;update Update this program to latest version. Make sure that you have sufficient permissions (run with sudo if needed) -i, &amp;ndash;ignore-errors Continue on download errors, for example to skip unavailable videos in a playlist &amp;ndash;abort-on-error Abort downloading of further videos (in the playlist or the command line) if an error occurs &amp;ndash;dump-user-agent Display the current browser identification &amp;ndash;list-extractors List all supported extractors &amp;ndash;extractor-descriptions Output descriptions of all supported extractors &amp;ndash;force-generic-extractor Force extraction to use the generic extractor &amp;ndash;default-search PREFIX Use this prefix for unqualified URLs.</description>
+      <content:encoded><![CDATA[<p>Usage: youtube-dl.exe [OPTIONS] URL [URL&hellip;]</p>
+<p>Options:
+General Options:
+-h, &ndash;help                           Print this help text and exit
+&ndash;version                            Print program version and exit
+-U, &ndash;update                         Update this program to latest version. Make sure that you have sufficient
+permissions (run with sudo if needed)
+-i, &ndash;ignore-errors                  Continue on download errors, for example to skip unavailable videos in a
+playlist
+&ndash;abort-on-error                     Abort downloading of further videos (in the playlist or the command line) if an
+error occurs
+&ndash;dump-user-agent                    Display the current browser identification
+&ndash;list-extractors                    List all supported extractors
+&ndash;extractor-descriptions             Output descriptions of all supported extractors
+&ndash;force-generic-extractor            Force extraction to use the generic extractor
+&ndash;default-search PREFIX              Use this prefix for unqualified URLs. For example &ldquo;gvsearch2:&rdquo; downloads two
+videos from google videos for youtube-dl &ldquo;large apple&rdquo;. Use the value &ldquo;auto&rdquo; to
+let youtube-dl guess (&ldquo;auto_warning&rdquo; to emit a warning when guessing). &ldquo;error&rdquo;
+just throws an error. The default value &ldquo;fixup_error&rdquo; repairs broken URLs, but
+emits an error if this is not possible instead of searching.
+&ndash;ignore-config                      Do not read configuration files. When given in the global configuration file
+/etc/youtube-dl.conf: Do not read the user configuration in ~/.config/youtube-
+dl/config (%APPDATA%/youtube-dl/config.txt on Windows)
+&ndash;config-location PATH               Location of the configuration file; either the path to the config or its
+containing directory.
+&ndash;flat-playlist                      Do not extract the videos of a playlist, only list them.
+&ndash;mark-watched                       Mark videos watched (YouTube only)
+&ndash;no-mark-watched                    Do not mark videos watched (YouTube only)
+&ndash;no-color                           Do not emit color codes in output</p>
+<p>Network Options:
+&ndash;proxy URL                          Use the specified HTTP/HTTPS/SOCKS proxy. To enable SOCKS proxy, specify a
+proper scheme. For example socks5://127.0.0.1:1080/. Pass in an empty string
+(&ndash;proxy &ldquo;&rdquo;) for direct connection
+&ndash;socket-timeout SECONDS             Time to wait before giving up, in seconds
+&ndash;source-address IP                  Client-side IP address to bind to
+-4, &ndash;force-ipv4                     Make all connections via IPv4
+-6, &ndash;force-ipv6                     Make all connections via IPv6</p>
+<p>Geo Restriction:
+&ndash;geo-verification-proxy URL         Use this proxy to verify the IP address for some geo-restricted sites. The
+default proxy specified by &ndash;proxy (or none, if the option is not present) is
+used for the actual downloading.
+&ndash;geo-bypass                         Bypass geographic restriction via faking X-Forwarded-For HTTP header
+&ndash;no-geo-bypass                      Do not bypass geographic restriction via faking X-Forwarded-For HTTP header
+&ndash;geo-bypass-country CODE            Force bypass geographic restriction with explicitly provided two-letter ISO
+3166-2 country code
+&ndash;geo-bypass-ip-block IP_BLOCK       Force bypass geographic restriction with explicitly provided IP block in CIDR
+notation</p>
+<p>Video Selection:
+&ndash;playlist-start NUMBER              Playlist video to start at (default is 1)
+&ndash;playlist-end NUMBER                Playlist video to end at (default is last)
+&ndash;playlist-items ITEM_SPEC           Playlist video items to download. Specify indices of the videos in the playlist
+separated by commas like: &ldquo;&ndash;playlist-items 1,2,5,8&rdquo; if you want to download
+videos indexed 1, 2, 5, 8 in the playlist. You can specify range: &ldquo;&ndash;playlist-
+items 1-3,7,10-13&rdquo;, it will download the videos at index 1, 2, 3, 7, 10, 11, 12
+and 13.
+&ndash;match-title REGEX                  Download only matching titles (regex or caseless sub-string)
+&ndash;reject-title REGEX                 Skip download for matching titles (regex or caseless sub-string)
+&ndash;max-downloads NUMBER               Abort after downloading NUMBER files
+&ndash;min-filesize SIZE                  Do not download any videos smaller than SIZE (e.g. 50k or 44.6m)
+&ndash;max-filesize SIZE                  Do not download any videos larger than SIZE (e.g. 50k or 44.6m)
+&ndash;date DATE                          Download only videos uploaded in this date
+&ndash;datebefore DATE                    Download only videos uploaded on or before this date (i.e. inclusive)
+&ndash;dateafter DATE                     Download only videos uploaded on or after this date (i.e. inclusive)
+&ndash;min-views COUNT                    Do not download any videos with less than COUNT views
+&ndash;max-views COUNT                    Do not download any videos with more than COUNT views
+&ndash;match-filter FILTER                Generic video filter. Specify any key (see the &ldquo;OUTPUT TEMPLATE&rdquo; for a list of
+available keys) to match if the key is present, !key to check if the key is not
+present, key &gt; NUMBER (like &ldquo;comment_count &gt; 12&rdquo;, also works with &gt;=, &lt;, &lt;=,
+!=, =) to compare against a number, key = &lsquo;LITERAL&rsquo; (like &ldquo;uploader = &lsquo;Mike
+Smith&rsquo;&rdquo;, also works with !=) to match against a string literal and &amp; to require
+multiple matches. Values which are not known are excluded unless you put a
+question mark (?) after the operator. For example, to only match videos that
+have been liked more than 100 times and disliked less than 50 times (or the
+dislike functionality is not available at the given service), but who also have
+a description, use &ndash;match-filter &ldquo;like_count &gt; 100 &amp; dislike_count &lt;? 50 &amp;
+description&rdquo; .
+&ndash;no-playlist                        Download only the video, if the URL refers to a video and a playlist.
+&ndash;yes-playlist                       Download the playlist, if the URL refers to a video and a playlist.
+&ndash;age-limit YEARS                    Download only videos suitable for the given age
+&ndash;download-archive FILE              Download only videos not listed in the archive file. Record the IDs of all
+downloaded videos in it.
+&ndash;include-ads                        Download advertisements as well (experimental)</p>
+<p>Download Options:
+-r, &ndash;limit-rate RATE                Maximum download rate in bytes per second (e.g. 50K or 4.2M)
+-R, &ndash;retries RETRIES                Number of retries (default is 10), or &ldquo;infinite&rdquo;.
+&ndash;fragment-retries RETRIES           Number of retries for a fragment (default is 10), or &ldquo;infinite&rdquo; (DASH,
+hlsnative and ISM)
+&ndash;skip-unavailable-fragments         Skip unavailable fragments (DASH, hlsnative and ISM)
+&ndash;abort-on-unavailable-fragment      Abort downloading when some fragment is not available
+&ndash;keep-fragments                     Keep downloaded fragments on disk after downloading is finished; fragments are
+erased by default
+&ndash;buffer-size SIZE                   Size of download buffer (e.g. 1024 or 16K) (default is 1024)
+&ndash;no-resize-buffer                   Do not automatically adjust the buffer size. By default, the buffer size is
+automatically resized from an initial value of SIZE.
+&ndash;http-chunk-size SIZE               Size of a chunk for chunk-based HTTP downloading (e.g. 10485760 or 10M)
+(default is disabled). May be useful for bypassing bandwidth throttling imposed
+by a webserver (experimental)
+&ndash;playlist-reverse                   Download playlist videos in reverse order
+&ndash;playlist-random                    Download playlist videos in random order
+&ndash;xattr-set-filesize                 Set file xattribute ytdl.filesize with expected file size
+&ndash;hls-prefer-native                  Use the native HLS downloader instead of ffmpeg
+&ndash;hls-prefer-ffmpeg                  Use ffmpeg instead of the native HLS downloader
+&ndash;hls-use-mpegts                     Use the mpegts container for HLS videos, allowing to play the video while
+downloading (some players may not be able to play it)
+&ndash;external-downloader COMMAND        Use the specified external downloader. Currently supports
+aria2c,avconv,axel,curl,ffmpeg,httpie,wget
+&ndash;external-downloader-args ARGS      Give these arguments to the external downloader</p>
+<p>Filesystem Options:
+-a, &ndash;batch-file FILE                File containing URLs to download (&rsquo;-&rsquo; for stdin), one URL per line. Lines
+starting with &lsquo;#&rsquo;, &lsquo;;&rsquo; or &lsquo;]&rsquo; are considered as comments and ignored.
+&ndash;id                                 Use only video ID in file name
+-o, &ndash;output TEMPLATE                Output filename template, see the &ldquo;OUTPUT TEMPLATE&rdquo; for all the info
+&ndash;output-na-placeholder PLACEHOLDER  Placeholder value for unavailable meta fields in output filename template
+(default is &ldquo;NA&rdquo;)
+&ndash;autonumber-start NUMBER            Specify the start value for %(autonumber)s (default is 1)
+&ndash;restrict-filenames                 Restrict filenames to only ASCII characters, and avoid &ldquo;&amp;&rdquo; and spaces in
+filenames
+-w, &ndash;no-overwrites                  Do not overwrite files
+-c, &ndash;continue                       Force resume of partially downloaded files. By default, youtube-dl will resume
+downloads if possible.
+&ndash;no-continue                        Do not resume partially downloaded files (restart from beginning)
+&ndash;no-part                            Do not use .part files - write directly into output file
+&ndash;no-mtime                           Do not use the Last-modified header to set the file modification time
+&ndash;write-description                  Write video description to a .description file
+&ndash;write-info-json                    Write video metadata to a .info.json file
+&ndash;write-annotations                  Write video annotations to a .annotations.xml file
+&ndash;load-info-json FILE                JSON file containing the video information (created with the &ldquo;&ndash;write-info-
+json&rdquo; option)
+&ndash;cookies FILE                       File to read cookies from and dump cookie jar in
+&ndash;cache-dir DIR                      Location in the filesystem where youtube-dl can store some downloaded
+information permanently. By default $XDG_CACHE_HOME/youtube-dl or ~/.cache
+/youtube-dl . At the moment, only YouTube player files (for videos with
+obfuscated signatures) are cached, but that may change.
+&ndash;no-cache-dir                       Disable filesystem caching
+&ndash;rm-cache-dir                       Delete all filesystem cache files</p>
+<p>Thumbnail Options:
+&ndash;write-thumbnail                    Write thumbnail image to disk
+&ndash;write-all-thumbnails               Write all thumbnail image formats to disk
+&ndash;list-thumbnails                    Simulate and list all available thumbnail formats</p>
+<p>Verbosity / Simulation Options:
+-q, &ndash;quiet                          Activate quiet mode
+&ndash;no-warnings                        Ignore warnings
+-s, &ndash;simulate                       Do not download the video and do not write anything to disk
+&ndash;skip-download                      Do not download the video
+-g, &ndash;get-url                        Simulate, quiet but print URL
+-e, &ndash;get-title                      Simulate, quiet but print title
+&ndash;get-id                             Simulate, quiet but print id
+&ndash;get-thumbnail                      Simulate, quiet but print thumbnail URL
+&ndash;get-description                    Simulate, quiet but print video description
+&ndash;get-duration                       Simulate, quiet but print video length
+&ndash;get-filename                       Simulate, quiet but print output filename
+&ndash;get-format                         Simulate, quiet but print output format
+-j, &ndash;dump-json                      Simulate, quiet but print JSON information. See the &ldquo;OUTPUT TEMPLATE&rdquo; for a
+description of available keys.
+-J, &ndash;dump-single-json               Simulate, quiet but print JSON information for each command-line argument. If
+the URL refers to a playlist, dump the whole playlist information in a single
+line.
+&ndash;print-json                         Be quiet and print the video information as JSON (video is still being
+downloaded).
+&ndash;newline                            Output progress bar as new lines
+&ndash;no-progress                        Do not print progress bar
+&ndash;console-title                      Display progress in console titlebar
+-v, &ndash;verbose                        Print various debugging information
+&ndash;dump-pages                         Print downloaded pages encoded using base64 to debug problems (very verbose)
+&ndash;write-pages                        Write downloaded intermediary pages to files in the current directory to debug
+problems
+&ndash;print-traffic                      Display sent and read HTTP traffic
+-C, &ndash;call-home                      Contact the youtube-dl server for debugging
+&ndash;no-call-home                       Do NOT contact the youtube-dl server for debugging</p>
+<p>Workarounds:
+&ndash;encoding ENCODING                  Force the specified encoding (experimental)
+&ndash;no-check-certificate               Suppress HTTPS certificate validation
+&ndash;prefer-insecure                    Use an unencrypted connection to retrieve information about the video.
+(Currently supported only for YouTube)
+&ndash;user-agent UA                      Specify a custom user agent
+&ndash;referer URL                        Specify a custom referer, use if the video access is restricted to one domain
+&ndash;add-header FIELD:VALUE             Specify a custom HTTP header and its value, separated by a colon &lsquo;:&rsquo;. You can
+use this option multiple times
+&ndash;bidi-workaround                    Work around terminals that lack bidirectional text support. Requires bidiv or
+fribidi executable in PATH
+&ndash;sleep-interval SECONDS             Number of seconds to sleep before each download when used alone or a lower
+bound of a range for randomized sleep before each download (minimum possible
+number of seconds to sleep) when used along with &ndash;max-sleep-interval.
+&ndash;max-sleep-interval SECONDS         Upper bound of a range for randomized sleep before each download (maximum
+possible number of seconds to sleep). Must only be used along with &ndash;min-sleep-
+interval.</p>
+<p>Video Format Options:
+-f, &ndash;format FORMAT                  Video format code, see the &ldquo;FORMAT SELECTION&rdquo; for all the info
+&ndash;all-formats                        Download all available video formats
+&ndash;prefer-free-formats                Prefer free video formats unless a specific one is requested
+-F, &ndash;list-formats                   List all available formats of requested videos
+&ndash;youtube-skip-dash-manifest         Do not download the DASH manifests and related data on YouTube videos
+&ndash;merge-output-format FORMAT         If a merge is required (e.g. bestvideo+bestaudio), output to given container
+format. One of mkv, mp4, ogg, webm, flv. Ignored if no merge is required</p>
+<p>Subtitle Options:
+&ndash;write-sub                          Write subtitle file
+&ndash;write-auto-sub                     Write automatically generated subtitle file (YouTube only)
+&ndash;all-subs                           Download all the available subtitles of the video
+&ndash;list-subs                          List all available subtitles for the video
+&ndash;sub-format FORMAT                  Subtitle format, accepts formats preference, for example: &ldquo;srt&rdquo; or
+&ldquo;ass/srt/best&rdquo;
+&ndash;sub-lang LANGS                     Languages of the subtitles to download (optional) separated by commas, use
+&ndash;list-subs for available language tags</p>
+<p>Authentication Options:
+-u, &ndash;username USERNAME              Login with this account ID
+-p, &ndash;password PASSWORD              Account password. If this option is left out, youtube-dl will ask
+interactively.
+-2, &ndash;twofactor TWOFACTOR            Two-factor authentication code
+-n, &ndash;netrc                          Use .netrc authentication data
+&ndash;video-password PASSWORD            Video password (vimeo, youku)</p>
+<p>Adobe Pass Options:
+&ndash;ap-mso MSO                         Adobe Pass multiple-system operator (TV provider) identifier, use &ndash;ap-list-mso
+for a list of available MSOs
+&ndash;ap-username USERNAME               Multiple-system operator account login
+&ndash;ap-password PASSWORD               Multiple-system operator account password. If this option is left out, youtube-
+dl will ask interactively.
+&ndash;ap-list-mso                        List all supported multiple-system operators</p>
+<p>Post-processing Options:
+-x, &ndash;extract-audio                  Convert video files to audio-only files (requires ffmpeg/avconv and
+ffprobe/avprobe)
+&ndash;audio-format FORMAT                Specify audio format: &ldquo;best&rdquo;, &ldquo;aac&rdquo;, &ldquo;flac&rdquo;, &ldquo;mp3&rdquo;, &ldquo;m4a&rdquo;, &ldquo;opus&rdquo;, &ldquo;vorbis&rdquo;, or
+&ldquo;wav&rdquo;; &ldquo;best&rdquo; by default; No effect without -x
+&ndash;audio-quality QUALITY              Specify ffmpeg/avconv audio quality, insert a value between 0 (better) and 9
+(worse) for VBR or a specific bitrate like 128K (default 5)
+&ndash;recode-video FORMAT                Encode the video to another format if necessary (currently supported:
+mp4|flv|ogg|webm|mkv|avi)
+&ndash;postprocessor-args ARGS            Give these arguments to the postprocessor
+-k, &ndash;keep-video                     Keep the video file on disk after the post-processing; the video is erased by
+default
+&ndash;no-post-overwrites                 Do not overwrite post-processed files; the post-processed files are overwritten
+by default
+&ndash;embed-subs                         Embed subtitles in the video (only for mp4, webm and mkv videos)
+&ndash;embed-thumbnail                    Embed thumbnail in the audio as cover art
+&ndash;add-metadata                       Write metadata to the video file
+&ndash;metadata-from-title FORMAT         Parse additional metadata like song title / artist from the video title. The
+format syntax is the same as &ndash;output. Regular expression with named capture
+groups may also be used. The parsed parameters replace existing values.
+Example: &ndash;metadata-from-title &ldquo;%(artist)s - %(title)s&rdquo; matches a title like
+&ldquo;Coldplay - Paradise&rdquo;. Example (regex): &ndash;metadata-from-title &ldquo;(?P<!-- raw HTML omitted -->.+?)
+- (?P<!-- raw HTML omitted -->.+)&rdquo;
+&ndash;xattrs                             Write metadata to the video file&rsquo;s xattrs (using dublin core and xdg standards)
+&ndash;fixup POLICY                       Automatically correct known faults of the file. One of never (do nothing), warn
+(only emit a warning), detect_or_warn (the default; fix file if we can, warn
+otherwise)
+&ndash;prefer-avconv                      Prefer avconv over ffmpeg for running the postprocessors
+&ndash;prefer-ffmpeg                      Prefer ffmpeg over avconv for running the postprocessors (default)
+&ndash;ffmpeg-location PATH               Location of the ffmpeg/avconv binary; either the path to the binary or its
+containing directory.
+&ndash;exec CMD                           Execute a command on the file after downloading and post-processing, similar to
+find&rsquo;s -exec syntax. Example: &ndash;exec &lsquo;adb push {} /sdcard/Music/ &amp;&amp; rm {}&rsquo;
+&ndash;convert-subs FORMAT                Convert the subtitles to other format (currently supported: srt|ass|vtt|lrc)</p>
+<p>.\youtube-dl.exe &ndash;proxy &ldquo;socks5://127.0.0.1:60000/&rdquo; &ndash;verbose <a href="https://www.youtube.com/watch?v=bqu6BquVi2M">https://www.youtube.com/watch?v=bqu6BquVi2M</a></p>
+<p>.\youtube-dl.exe &ndash;verbose <a href="https://www.youtube.com/watch?v=bqu6BquVi2M">https://www.youtube.com/watch?v=bqu6BquVi2M</a></p>
 ]]></content:encoded>
     </item>
     

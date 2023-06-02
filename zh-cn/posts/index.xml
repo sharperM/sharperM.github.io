@@ -85,6 +85,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>1.学习 jetpack compose 的基本使用 compose 的 fundamental 是 composable function，这个 function 会返回一个 UI tree，这个 UI tree 会被 compose runtime 转换成一个 UI tree，然后被渲染到屏幕上。 ROW Column</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>cwebp 压缩命令 示例 .\cwebp.exe -q 50 -lossless C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.jpeg -o C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.webp .\cwebp.exe -q 50 C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.jpeg -o C:\Users\soldi\Desktop\youmieyou\codeup\FakePage-Sample\immutable\app\src\main\assets\place\01.webp 科幻电影中的科学 ：科学家奶爸的宇宙手绘 新华字典第12版 《小屁孩成长记做最好的自己》</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>使用导航控制 fragment，而不是用 fragmentManger</description>
     </item>
     
@@ -94,7 +112,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档reference https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components 官方示例工程 https://github.com/android/compose-samples.git https://github.com/android/nowinandroid.git 官方教学示例 https://github.com/googlecodelabs/android-compose-codelabs material3 https://m2.material.io/components/navigation-rail/android#using-navigation-rail 英文使用例子 https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/</description>
+      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档refere</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>Usage: youtube-dl.exe [OPTIONS] URL [URL&amp;hellip;]
+Options: General Options: -h, &amp;ndash;help Print this help text and exit &amp;ndash;version Print program version and exit -U, &amp;ndash;update Update this program to latest version. Make sure that you have sufficient permissions (run with sudo if needed) -i, &amp;ndash;ignore-errors Continue on download errors, for example to skip unavailable videos in a playlist &amp;ndash;abort-on-error Abort downloading of further videos (in the playlist or the command line) if an error occurs &amp;ndash;dump-user-agent Display the current browser identification &amp;ndash;list-extractors List all supported extractors &amp;ndash;extractor-descriptions Output descriptions of all supported extractors &amp;ndash;force-generic-extractor Force extraction to use the generic extractor &amp;ndash;default-search PREFIX Use this prefix for unqualified URLs.</description>
     </item>
     
     <item>
