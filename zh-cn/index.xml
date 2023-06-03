@@ -6,7 +6,7 @@
     <description>Recent content on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Mar 2023 10:46:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jun 2023 23:10:57 +0800</lastBuildDate>
     
     <atom:link href="https://sharperM.GitHub.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,47 @@
 <li><a href="https://github.com/spf13/cast">Cast</a></li>
 </ul>
 <p>了解並貢獻： <a href="https://github.com/gohugoio">GitHub</a>.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>cs193p-2021-lecture1</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture1/</link>
+      <pubDate>Sat, 03 Jun 2023 23:10:57 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture1/</guid>
+      <description>1.Getting start with swiftUI 1.intro 2.Memorize! 3.xcode 介绍 SwiftUI View var some View 像lego 各个View 组合，嵌套，组成UI 使用函数式编程 ZStack 组合各种view</description>
+      <content:encoded><![CDATA[<h1 id="1getting-start-with-swiftui">1.Getting start with swiftUI</h1>
+<h2 id="1intro">1.intro</h2>
+<h2 id="2memorize">2.Memorize!</h2>
+<h2 id="3xcode">3.xcode</h2>
+<pre><code>介绍 SwiftUI
+
+View
+
+var 
+
+some View
+
+像lego 各个View 组合，嵌套，组成UI
+
+使用函数式编程
+
+ZStack 组合各种view
+</code></pre>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>cs193p-2021-lecture2</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture2/</link>
+      <pubDate>Sat, 03 Jun 2023 23:10:57 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture2/</guid>
+      <description>cs193p-2021-lecture2 继续写界面 HStack</description>
+      <content:encoded><![CDATA[<p>cs193p-2021-lecture2</p>
+<p>继续写界面</p>
+<p>HStack</p>
 ]]></content:encoded>
     </item>
     
@@ -384,6 +425,57 @@ Scaffold</p>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>消消乐 git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git 假页面地址 git git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git https https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 常用命令 1.添加远程仓库 git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 我的账号 maishaopei@youmieyou.onaliyun.com 搜索多仓库 ssh 配置 编辑</description>
+      <content:encoded><![CDATA[<h2 id="消消乐">消消乐</h2>
+<pre><code>git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git
+</code></pre>
+<h2 id="假页面2">假页面2</h2>
+<pre><code>git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git
+</code></pre>
+<h2 id="假页面地址">假页面地址</h2>
+<p>git</p>
+<pre><code>git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git
+</code></pre>
+<p>https</p>
+<pre><code>https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git
+</code></pre>
+<h2 id="我的blog">我的blog</h2>
+<pre><code>git@github.com:sharperM/msp_blog.git
+</code></pre>
+<h2 id="常用命令">常用命令</h2>
+<h3 id="1添加远程仓库">1.添加远程仓库</h3>
+<pre><code>git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git
+
+消消乐git地址
+git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git
+</code></pre>
+<p>我的账号
+<a href="mailto:maishaopei@youmieyou.onaliyun.com">maishaopei@youmieyou.onaliyun.com</a></p>
+<p>搜索多仓库 ssh 配置</p>
+<p>编辑~/.ssh/config 文件</p>
+<p>增加</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>		<span style="color:#75715e">#工作账号</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Host codeup_1</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">HostName codeup.aliyun.com</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">IdentityFile ~/.ssh/id_rsa</span>
+</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">#我的码云账号</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Host codeup_2</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">HostName codeup.aliyun.com</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">IdentityFile ~/.ssh/id_maishaopei_youmieyou</span>
+</span></span></code></pre></div><h3 id="2打包-archive">2.打包 archive</h3>
+<p>git archive</p>
+<pre><code>git archive --output=111.zip --format=zip HEAD
+</code></pre>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>使用导航控制 fragment，而不是用 fragmentManger</description>
       <content:encoded><![CDATA[<p>使用导航控制 fragment，而不是用 fragmentManger</p>
 ]]></content:encoded>
@@ -395,7 +487,7 @@ Scaffold</p>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档refere</description>
+      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com 搜索多仓库 ssh 配置 编辑~/.ssh/c</description>
       <content:encoded><![CDATA[<p>用这个来自定义ui</p>
 <p>git remote add origin <a href="https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git">https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</a></p>
 <p>git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git</p>
@@ -409,7 +501,19 @@ git clone <a href="https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-S
 <p>消消乐git地址
 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git</p>
 <p><a href="mailto:maishaopei@youmieyou.onaliyun.com">maishaopei@youmieyou.onaliyun.com</a></p>
-<p>Compose 官方学习文档
+<p>搜索多仓库 ssh 配置</p>
+<p>编辑~/.ssh/config 文件</p>
+<p>增加</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>		<span style="color:#75715e">#工作账号</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Host codeup_1</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">HostName codeup.aliyun.com</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">IdentityFile ~/.ssh/id_rsa</span>
+</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">#我的码云账号</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Host codeup_2</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">HostName codeup.aliyun.com</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">IdentityFile ~/.ssh/id_maishaopei_youmieyou</span>
+</span></span></code></pre></div><p>Compose 官方学习文档
 <a href="https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn">https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn</a></p>
 <p>编程文档reference
 <a href="https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components">https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components</a></p>
@@ -697,6 +801,22 @@ find&rsquo;s -exec syntax. Example: &ndash;exec &lsquo;adb push {} /sdcard/Music
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>1.企业主体信息 2.仲裁申请书 2份 3.材料清单2份 4.案件要素调查表 2份 5.身份证复印件 2份 6.证据材料2份</description>
+      <content:encoded><![CDATA[<p>1.企业主体信息
+2.仲裁申请书 2份
+3.材料清单2份
+4.案件要素调查表 2份</p>
+<p>5.身份证复印件 2份
+6.证据材料2份</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -736,96 +856,6 @@ cpu get *</p>
 <p>————————————————
 版权声明：本文为CSDN博主「如今，」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/weixin_48103302/article/details/119824297</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>11月8日20点 11月9日21点 11月10日21点 11月11日20点 11月14日20点 11月22日19点半 11月23日21点 11月24日21</description>
-      <content:encoded><![CDATA[<p>11月8日20点
-11月9日21点
-11月10日21点
-11月11日20点</p>
-<p>11月14日20点
-11月22日19点半
-11月23日21点
-11月24日21点
-11月25日21点
-11月27日21点
-11月29日21点
-11月30日21点
-12月1日20点
-12月2日21点
-12月5日20点
-12月7日21点
-12月8日20点
-12月12日21点
-12月13日21点
-12月14日19点
-12月15日19点
-12月16日19点
-12月17日19点
-12月19日19点</p>
-<p>12月24日19点
-12月26日19点
-12月27日19点
-12月28日19点
-12月29日19点</p>
-<p>1月3日19点
-1月5日19点
-1月6日19点
-1月7日19点</p>
-<p>1月9日19点
-1月10日20点
-1月11日19点
-1月12日20点
-1月13日21点</p>
-<p>1月16日21点
-1月17日19点
-1月18日19点
-1月19日19点</p>
-<p>1月28日19点
-1月29日19点
-1月30日19点
-1月31日19点
-2月1日19点
-2月2日19点
-2月3日19点</p>
-<p>2月5日19点
-2月6日19点
-2月7日19点
-2月8日19点</p>
-<p>2月10日19点
-2月11日19点</p>
-<p>2月13日19点
-2月14日19点
-2月15日19点
-2月16日19点
-2月17日20点</p>
-<p>2月20日19点
-2月21日19点
-2月22日19点</p>
-<p>2月24日20点
-2月25日19点
-2月27日19点
-2月28日19点
-3月1日19点
-3月2日19点
-3月3日19点</p>
-<p>3月7日21点
-3月8日19点
-3月9日19点
-3月10日20点
-3月11日19点</p>
-<p>3月13日19点
-3月14日19点
-3月15日20点
-3月16日20点
-3月17日19点</p>
 ]]></content:encoded>
     </item>
     

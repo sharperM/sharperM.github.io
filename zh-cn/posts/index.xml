@@ -6,7 +6,25 @@
     <description>Recent content in Posts on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Mar 2023 10:46:58 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2023 23:10:57 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cs193p-2021-lecture1</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture1/</link>
+      <pubDate>Sat, 03 Jun 2023 23:10:57 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture1/</guid>
+      <description>1.Getting start with swiftUI 1.intro 2.Memorize! 3.xcode 介绍 SwiftUI View var some View 像lego 各个View 组合，嵌套，组成UI 使用函数式编程 ZStack 组合各种view</description>
+    </item>
+    
+    <item>
+      <title>cs193p-2021-lecture2</title>
+      <link>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture2/</link>
+      <pubDate>Sat, 03 Jun 2023 23:10:57 +0800</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/2023/06/03/cs193p-2021-lecture2/</guid>
+      <description>cs193p-2021-lecture2 继续写界面 HStack</description>
+    </item>
+    
     <item>
       <title>金科工作回顾</title>
       <link>https://sharperM.GitHub.io/zh-cn/2023/03/23/%E9%87%91%E7%A7%91%E5%B7%A5%E4%BD%9C%E5%9B%9E%E9%A1%BE/</link>
@@ -103,6 +121,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>消消乐 git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git 假页面地址 git git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git https https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 常用命令 1.添加远程仓库 git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 我的账号 maishaopei@youmieyou.onaliyun.com 搜索多仓库 ssh 配置 编辑</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>使用导航控制 fragment，而不是用 fragmentManger</description>
     </item>
     
@@ -112,7 +139,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com Compose 官方学习文档 https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn 编程文档refere</description>
+      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com 搜索多仓库 ssh 配置 编辑~/.ssh/c</description>
     </item>
     
     <item>
@@ -123,6 +150,15 @@
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>Usage: youtube-dl.exe [OPTIONS] URL [URL&amp;hellip;]
 Options: General Options: -h, &amp;ndash;help Print this help text and exit &amp;ndash;version Print program version and exit -U, &amp;ndash;update Update this program to latest version. Make sure that you have sufficient permissions (run with sudo if needed) -i, &amp;ndash;ignore-errors Continue on download errors, for example to skip unavailable videos in a playlist &amp;ndash;abort-on-error Abort downloading of further videos (in the playlist or the command line) if an error occurs &amp;ndash;dump-user-agent Display the current browser identification &amp;ndash;list-extractors List all supported extractors &amp;ndash;extractor-descriptions Output descriptions of all supported extractors &amp;ndash;force-generic-extractor Force extraction to use the generic extractor &amp;ndash;default-search PREFIX Use this prefix for unqualified URLs.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>1.企业主体信息 2.仲裁申请书 2份 3.材料清单2份 4.案件要素调查表 2份 5.身份证复印件 2份 6.证据材料2份</description>
     </item>
     
     <item>
