@@ -130,6 +130,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>任务 cocos creator 游戏 上架 ios 1 需要提供 微信登录 遇到问题： 1.Xcode 12: building for iOS Simulator, but linking in object file built fo&amp;hellip; for architecture arm64 xcode 编译 开发平台示例 会报错 解决：https://blog.csd</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>使用导航控制 fragment，而不是用 fragmentManger</description>
     </item>
     
@@ -177,15 +186,6 @@ Options: General Options: -h, &amp;ndash;help Print this help text and exit &amp
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>win+r cmd 输入命令 wmic memorychip cpu get * 1.查看磁盘信息：freedisk 可以查看每一个盘的剩余空间 wmic diskdrive 可以看出来牌子和大小. Wmic logicaldisk 可以看到有几个盘，每一个盘的</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>11月8日20点 11月9日21点 11月10日21点 11月11日20点 11月14日20点 11月22日19点半 11月23日21点 11月24日21</description>
     </item>
     
   </channel>
