@@ -67,7 +67,7 @@
       <pubDate>Mon, 06 Mar 2023 20:11:04 +0800</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/2023/03/06/%E5%8A%9B%E6%B8%AF1/</guid>
-      <description>123123</description>
+      <description></description>
     </item>
     
     <item>
@@ -85,15 +85,6 @@
       <pubDate>Mon, 05 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/2018/03/05/%E6%A8%99%E9%A0%AD%E5%9C%96%E7%89%87/</guid>
-      <description>這是一個簡單的筆記。</description>
-    </item>
-    
-    <item>
-      <title>筆記 2</title>
-      <link>https://sharperM.GitHub.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</link>
-      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</guid>
       <description>這是一個簡單的筆記。</description>
     </item>
     
@@ -130,25 +121,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>任务 cocos creator 游戏 上架 ios 1 需要提供 微信登录 遇到问题： 1.Xcode 12: building for iOS Simulator, but linking in object file built fo&amp;hellip; for architecture arm64 xcode 编译 开发平台示例 会报错 解决：https://blog.csd</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>使用导航控制 fragment，而不是用 fragmentManger</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com 搜索多仓库 ssh 配置 编辑~/.ssh/c</description>
     </item>
     
     <item>
@@ -186,6 +159,33 @@ Options: General Options: -h, &amp;ndash;help Print this help text and exit &amp
       
       <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
       <description>音标：《赖世雄美语音标》 语法：https://www.zhihu.com/question/30030877/answer/76850196</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>find / -name .git 2&amp;gt;&amp;amp;1 | grep -v &amp;lsquo;Permission denied&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>11月8日20点 11月9日21点 11月10日21点 11月11日20点 11月14日20点 11月22日19点半 11月23日21点 11月24日21</description>
     </item>
     
   </channel>

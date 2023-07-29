@@ -308,9 +308,8 @@ All threads joined!
       <pubDate>Mon, 06 Mar 2023 20:11:04 +0800</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/2023/03/06/%E5%8A%9B%E6%B8%AF1/</guid>
-      <description>123123</description>
-      <content:encoded><![CDATA[<p>123123</p>
-]]></content:encoded>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
@@ -371,17 +370,6 @@ t_label.label.updateRenderData(true)</code></pre>
       <pubDate>Mon, 05 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://sharperM.GitHub.io/zh-cn/2018/03/05/%E6%A8%99%E9%A0%AD%E5%9C%96%E7%89%87/</guid>
-      <description>這是一個簡單的筆記。</description>
-      <content:encoded><![CDATA[<p>這是一個簡單的筆記。</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>筆記 2</title>
-      <link>https://sharperM.GitHub.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</link>
-      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</guid>
       <description>這是一個簡單的筆記。</description>
       <content:encoded><![CDATA[<p>這是一個簡單的筆記。</p>
 ]]></content:encoded>
@@ -467,51 +455,6 @@ git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_projec
 <p>git archive</p>
 <pre><code>git archive --output=111.zip --format=zip HEAD
 </code></pre>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>任务 cocos creator 游戏 上架 ios 1 需要提供 微信登录 遇到问题： 1.Xcode 12: building for iOS Simulator, but linking in object file built fo&amp;hellip; for architecture arm64 xcode 编译 开发平台示例 会报错 解决：https://blog.csd</description>
-      <content:encoded><![CDATA[<p>任务 cocos creator 游戏 上架 ios</p>
-<p>1 需要提供 微信登录</p>
-<p>遇到问题：
-1.Xcode 12: building for iOS Simulator, but linking in object file built fo&hellip; for architecture arm64
-xcode 编译 开发平台示例 会报错
-解决：https://blog.csdn.net/ws1836300/article/details/108755295</p>
-<p>实测在 macmini m2 可行</p>
-<p>在 游戏工程添加微信sdk库。添加拉起微信的代码</p>
-<p>方法1：
-cocos creator 要增加 jsbingding 代码 提供游戏调用</p>
-<p>方法2：
-用 creator 的 native.reflection.callStaticMethod 调用微信sdk的方法
-调用</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>使用导航控制 fragment，而不是用 fragmentManger</description>
-      <content:encoded><![CDATA[<p>使用导航控制 fragment，而不是用 fragmentManger</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
-      <description>用这个来自定义ui git remote add origin https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git 假页面2 git@codeup_2:64089bfe56067d3aad3e0e4c/FakeHotelIndex.git git clone git@codeup_2:64089bfe56067d3aad3e0e4c/FakePage-Sample.git 假页面地址 git clone https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakePage-Sample.git 我的blog git@github.com:sharperM/msp_blog.git 消消乐git地址 git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git maishaopei@youmieyou.onaliyun.com 搜索多仓库 ssh 配置 编辑~/.ssh/c</description>
-      <content:encoded><![CDATA[<p>用这个来自定义ui</p>
 <p>git remote add origin <a href="https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git">https://codeup.aliyun.com/64089bfe56067d3aad3e0e4c/FakeHotelIndex.git</a></p>
 <p>git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_project/xiaoxiaole.git</p>
 <p>假页面2
@@ -536,21 +479,17 @@ git remote add origin git@codeup_2:64089bfe56067d3aad3e0e4c/cocos_creator_projec
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Host codeup_2</span>
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">HostName codeup.aliyun.com</span>
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">IdentityFile ~/.ssh/id_maishaopei_youmieyou</span>
-</span></span></code></pre></div><p>Compose 官方学习文档
-<a href="https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn">https://developer.android.google.cn/jetpack/compose/mental-model?hl=zh-cn</a></p>
-<p>编程文档reference
-<a href="https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components">https://developer.android.google.cn/reference/kotlin/androidx/compose/material/package-summary#components</a></p>
-<p>官方示例工程</p>
-<p><a href="https://github.com/android/compose-samples.git">https://github.com/android/compose-samples.git</a></p>
-<p>包含其他的jetpack 功能659
-<a href="https://github.com/android/nowinandroid.git">https://github.com/android/nowinandroid.git</a></p>
-<p>官方教学示例
-<a href="https://github.com/googlecodelabs/android-compose-codelabs">https://github.com/googlecodelabs/android-compose-codelabs</a></p>
-<p>material3
-<a href="https://m2.material.io/components/navigation-rail/android#using-navigation-rail">https://m2.material.io/components/navigation-rail/android#using-navigation-rail</a>
-<a href="https://m3.material.io/foundations">https://m3.material.io/foundations</a></p>
-<p>英文使用例子
-<a href="https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/">https://foso.github.io/Jetpack-Compose-Playground/general/compositionlocalprovider/</a></p>
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>使用导航控制 fragment，而不是用 fragmentManger</description>
+      <content:encoded><![CDATA[<p>使用导航控制 fragment，而不是用 fragmentManger</p>
 ]]></content:encoded>
     </item>
     
@@ -870,6 +809,40 @@ find&rsquo;s -exec syntax. Example: &ndash;exec &lsquo;adb push {} /sdcard/Music
 <h1 id="破解外部触发器">破解外部触发器</h1>
 <h1 id="用工具减少分心">用工具减少分心</h1>
 <h1 id="要相信自己有能力做到">要相信自己有能力做到。</h1>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>音标：《赖世雄美语音标》 语法：https://www.zhihu.com/question/30030877/answer/76850196</description>
+      <content:encoded><![CDATA[<p>音标：《赖世雄美语音标》
+语法：https://www.zhihu.com/question/30030877/answer/768501967</p>
+<p>语言交换网站 <a href="https://language.exchange">https://language.exchange</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>find / -name .git 2&amp;gt;&amp;amp;1 | grep -v &amp;lsquo;Permission denied&amp;rsquo;</description>
+      <content:encoded><![CDATA[<p>find /  -name .git 2&gt;&amp;1  | grep -v &lsquo;Permission denied&rsquo;</p>
 ]]></content:encoded>
     </item>
     
