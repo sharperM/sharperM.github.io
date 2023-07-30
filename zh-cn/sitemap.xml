@@ -30,13 +30,6 @@
   </url>
   
   <url>
-    <loc>https://sharperM.GitHub.io/zh-cn/tag/notes/</loc>
-    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://sharperM.GitHub.io/zh-cn/category/notes/</loc>
     <lastmod>2023-06-03T23:10:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -58,8 +51,22 @@
   </url>
   
   <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tag/swiftui/</loc>
+    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://sharperM.GitHub.io/zh-cn/tags/</loc>
     <lastmod>2023-06-03T23:10:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tag/notes/</loc>
+    <lastmod>2023-03-23T10:46:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
