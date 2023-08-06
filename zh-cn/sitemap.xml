@@ -10,7 +10,70 @@
   
   <url>
     <loc>https://sharperM.GitHub.io/zh-cn/categories/</loc>
-    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tag/docker/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tag/gitlab/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/category/notes/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/posts/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tag/qnap/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/2023/08/05/qnap%E5%A8%81%E8%81%94%E9%80%9A%E9%83%A8%E7%BD%B2gitlab/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tags/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sharperM.GitHub.io/zh-cn/tag/%E5%A8%81%E8%81%94%E9%80%9A/</loc>
+    <lastmod>2023-08-05T10:25:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -30,35 +93,7 @@
   </url>
   
   <url>
-    <loc>https://sharperM.GitHub.io/zh-cn/category/notes/</loc>
-    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sharperM.GitHub.io/zh-cn/posts/</loc>
-    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sharperM.GitHub.io/zh-cn/</loc>
-    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://sharperM.GitHub.io/zh-cn/tag/swiftui/</loc>
-    <lastmod>2023-06-03T23:10:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sharperM.GitHub.io/zh-cn/tags/</loc>
     <lastmod>2023-06-03T23:10:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
