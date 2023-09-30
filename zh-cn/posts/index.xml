@@ -97,5 +97,14 @@
       <description>這是一個簡單的筆記。</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://sharperM.GitHub.io/zh-cn/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sharperM.GitHub.io/zh-cn/1/01/01/</guid>
+      <description>https://segmentfault.com/a/1190000002573302 编程语言 Programming with Objective-C: About Objective-C ： Apple 撰写的一份关于 Objective-C 2.0 的一份文档，这也算是学习 iOS/Mac 开发必读的一份文档，记得我当初看的时候是叫做 The Objective-C Programming Language。 Learn Objective-C</description>
+    </item>
+    
   </channel>
 </rss>
