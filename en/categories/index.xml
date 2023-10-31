@@ -6,24 +6,21 @@
     <description>Recent content in Categories on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate>
+    <atom:link href="https://sharperM.GitHub.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes</title>
       <link>https://sharperM.GitHub.io/en/category/notes/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
       <guid>https://sharperM.GitHub.io/en/category/notes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Demos</title>
       <link>https://sharperM.GitHub.io/en/category/demos/</link>
       <pubDate>Mon, 05 Mar 2018 16:01:23 +0800</pubDate>
-      
       <guid>https://sharperM.GitHub.io/en/category/demos/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

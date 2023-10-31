@@ -6,24 +6,21 @@
     <description>Recent content in notes on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Mar 2023 10:46:58 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/zh-cn/tag/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 10:46:58 +0800</lastBuildDate>
+    <atom:link href="https://sharperM.GitHub.io/zh-cn/tag/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>金科工作回顾</title>
       <link>https://sharperM.GitHub.io/zh-cn/2023/03/23/%E9%87%91%E7%A7%91%E5%B7%A5%E4%BD%9C%E5%9B%9E%E9%A1%BE/</link>
       <pubDate>Thu, 23 Mar 2023 10:46:58 +0800</pubDate>
-      
       <guid>https://sharperM.GitHub.io/zh-cn/2023/03/23/%E9%87%91%E7%A7%91%E5%B7%A5%E4%BD%9C%E5%9B%9E%E9%A1%BE/</guid>
       <description>金科工作回顾 开始的11月8日 一’修改lua 直译 ts 的脚本错误。 其实就是将lua的定义的静态函数 改成class，改成单例，改成creator的组</description>
     </item>
-    
     <item>
       <title>lua 轉 typescript 錯誤</title>
       <link>https://sharperM.GitHub.io/zh-cn/2023/03/06/lua-%E8%BD%89-typescript-%E9%8C%AF%E8%AA%A4/</link>
       <pubDate>Mon, 06 Mar 2023 20:10:57 +0800</pubDate>
-      
       <guid>https://sharperM.GitHub.io/zh-cn/2023/03/06/lua-%E8%BD%89-typescript-%E9%8C%AF%E8%AA%A4/</guid>
       <description>金科工作業務2 lua 轉 typescript 錯誤 整理 1. 數組從1開始 正则表达式 \[([1|2|3|4|5|6|7|8])\] [$1-1] 2. for 循環 //还是是否从1开始 for 3. 三元運算符 value = condition and a or b //當a 等於 0 或者 是 false 的時候</description>
     </item>
-    
   </channel>
 </rss>

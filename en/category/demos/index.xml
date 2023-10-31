@@ -6,24 +6,21 @@
     <description>Recent content in Demos on sharperM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Mar 2018 16:01:23 +0800</lastBuildDate><atom:link href="https://sharperM.GitHub.io/en/category/demos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Mar 2018 16:01:23 +0800</lastBuildDate>
+    <atom:link href="https://sharperM.GitHub.io/en/category/demos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Header Image</title>
       <link>https://sharperM.GitHub.io/en/2018/03/05/header-image/</link>
       <pubDate>Mon, 05 Mar 2018 16:01:23 +0800</pubDate>
-      
       <guid>https://sharperM.GitHub.io/en/2018/03/05/header-image/</guid>
       <description>This is a simple note.</description>
     </item>
-    
     <item>
       <title>Shortcodes Preview</title>
       <link>https://sharperM.GitHub.io/en/2018/03/04/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
-      
       <guid>https://sharperM.GitHub.io/en/2018/03/04/shortcodes-preview/</guid>
       <description>Google Map Figure Globe Highlight for Shells # test echo test # just a test echo hello world </description>
     </item>
-    
   </channel>
 </rss>
